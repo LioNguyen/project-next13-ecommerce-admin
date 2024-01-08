@@ -11,3 +11,6 @@ npx prisma init -> add prismadb -> npx prisma generate -> npx prisma db push -> 
 Add ClerkProvider -> add middleware
 
 [PlanetScale DB](https://app.planetscale.com)
+[Console Cloudinary](https://console.cloudinary.com)
+[Next Cloudinary](https://next.cloudinary.dev)
+[Handle upload presets](https://console.cloudinary.com/settings/c-99538f2bfbfcebbf2665abd1ceaf47/upload_presets/new)
