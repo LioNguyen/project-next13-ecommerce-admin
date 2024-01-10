@@ -14,3 +14,12 @@ Add ClerkProvider -> add middleware
 [Console Cloudinary](https://console.cloudinary.com)
 [Next Cloudinary](https://next.cloudinary.dev)
 [Handle upload presets](https://console.cloudinary.com/settings/c-99538f2bfbfcebbf2665abd1ceaf47/upload_presets/new)
+[STRIPE API KEY](https://dashboard.stripe.com/test/apikeys)
+
+[Stripe Install Docs](https://stripe.com/docs/stripe-cli)
+
+```bash
+stripe login
+stripe listen --forward-to localhost:3000/api/webhook
+stripe trigger payment_intent.succeeded
+```
